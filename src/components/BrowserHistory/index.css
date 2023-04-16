@@ -1,0 +1,89 @@
+.history-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.history-time-site-details {
+  display: flex;
+  flex-direction: row;
+}
+.site-details {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  margin-left: 60px;
+}
+
+.time {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.title {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.domain-name {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 14px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .history-time-site-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .time {
+    font-size: 14px;
+  }
+  .site-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .logo {
+    width: 20px;
+    height: 20px;
+  }
+  .title {
+    color: #475569;
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-left: 3px;
+  }
+  .domain-name {
+    color: #64748b;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-left: 3px;
+  }
+  .details-container {
+    margin-left: 8px;
+  }
+}
